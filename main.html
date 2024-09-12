@@ -10,10 +10,10 @@
 <body>
 	<!-- the entire body must be written by student -->
 	
-	<h3 class="block-heading text-center" style="color:#3b99e0;">Shopping cart</h3>
-	<p class="mt-5 text-muted text-center" style="width: 23rem;">The customer is very important, the customer will be followed by the customer. Now, as an um, I have no right to be in possession of property.</p>
+	<header class="block-heading text-center" style="color:#3b99e0;">Shopping cart</header>
+	<p class="text-center text-muted" style="width: 23rem;text-align:center;">The customer is very important, the customer will be followed by the customer. Now, as an um, I have no right to be in possession of property.</p>
 	
-	<div class="container">
+	<div class="container d-flex flex-row justify-content-lg-start">
 		<div class="row">
 				<div class="col-lg-8 w-75">
 					<div class="product d-flex  flex-row justify-content-row bd-highlight align-self-start">
@@ -70,16 +70,23 @@
 							<span class="fw-bold">$120</span>
 						</div>
 					</div>
-					<div class="summary" style="border-top:#5ea4f3;background-color:#f7fbff;">
-					 <div class="col-lg-4 d-flex flex-column">
-						 <h5>Summary</h5>
-						 <span>Subtotal   $360</span>
-						 <span>Discount   $0</span>
-						 <span>Shipping   $0</span>
-						 <span>Total      $360</span>
-						 <button type="button" class="bg-primary w-25">checkout</button>
+				<div class="row d-md-block">
+					 <div class="col-lg-4 d-flex flex-column justify-content-end">
+						<div class="summary" style="border-top:#5ea4f3;background-color:#f7fbff;">
+						<h5>Summary</h5>
+						 <ul class="list-group">
+							 <li class="list-group-item border-top-0" style="font-size:13px">Subtotal<span class="ms-5">$360</span></li>
+							 <li class="list-group-item border-top-0" style="font-size:13px">Discount<span class="ms-5">$0</span></li>
+							 <li class="list-group-item border-top-0" style="font-size:13px">Shipping<span class="ms-5">$0</span></li>
+							 <li class="list-group-item border-bottom-0" style="font-size:13px">Total<span class="ms-5">$360</span></li>
+						 </ul>
+						<button type="button" class="bg-primary w-25">checkout</button>
 					 </div>
 					</div>
+				</div>
+				</div>
+		</div>
+	</div>
 						 
 						 
     <script type="text/javascript" src="./script.js">
